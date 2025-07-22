@@ -1,1 +1,11 @@
 selenium
+pandas
+
+# Core dependencies for the Selenium web scraper
+
+selenium>=4.10.0   # Web automation framework used for scraping
+pandas>=2.0.0      # For saving results to CSV
+
+# Optional: If you plan to run in a virtual environment
+# or automate across environments, freeze your full environment:
+# pip freeze > requirements.txt
